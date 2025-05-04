@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Substituindo Jakarta Mail por JavaMail tradicional
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+}
+
+application {
+    mainClass = 'com.newsletter.NewsletterSender'
+}
