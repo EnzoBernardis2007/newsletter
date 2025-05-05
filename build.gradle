@@ -8,8 +8,8 @@ repositories {
 }
 
 dependencies {
-    // Substituindo Jakarta Mail por JavaMail tradicional
     implementation 'com.sun.mail:javax.mail:1.6.2'
+    implementation 'org.postgresql:postgresql:42.7.3'
 }
 
 application {
